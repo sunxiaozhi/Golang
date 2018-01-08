@@ -49,6 +49,10 @@ type Books struct {
 	fmt.Printf( "Book 2 book_id : %d\n", Book2.book_id)
 }*/
 
+func init() {
+	fmt.Println("先执行init")
+}
+
 func main() {
 	var Book1 Books        /* 声明 Book1 为 Books 类型 */
 	var Book2 Books        /* 声明 Book2 为 Books 类型 */
